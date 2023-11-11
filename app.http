@@ -1,0 +1,12 @@
+# POST http://localhost:3004/api/order
+# Content-Type: application/json
+
+# {
+#   "ItemType": "Muffins",
+#   "OrderState": "Created",
+#   "LastUpdateTime": "2023-04-01T10:00:00",
+#   "BranchID": 1,
+#   "CustomerID": 101
+# }
+
+GET http://localhost:3004/api/order/5
